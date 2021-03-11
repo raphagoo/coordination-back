@@ -1,0 +1,29 @@
+{
+  "name": "blanc_agostini_prj_coordination_back",
+  "version": "0.0.1",
+  "description": "Projet Coordination de : Agostini Raphael, Blanc Kévin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RisbourgNathan/ProjetNodeJSB3.git"
+  },
+  "author": "Agostini Raphael, Blanc kévin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-autopopulate": "^0.10.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.2"
+  }
+}
